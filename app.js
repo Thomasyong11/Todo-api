@@ -1,6 +1,6 @@
 const express = require("express");
 
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 let todos = [{ id: 1, task: "call mom", date: "20/08/2020", completed: false }];
 
 const app = express();
